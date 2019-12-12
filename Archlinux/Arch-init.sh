@@ -4,4 +4,5 @@ set -gx DOT-INIT-2ND-PACKAGE_MANAGER yay
 set -gx DOT-INIT-PACKAGE_MANAGER-OPTION -Sy
 pacman-key --init ; pacman-key --populate archlinux
 pacman -Syyuu
-wget https://github.com/koumaza/pacman-my-init/raw/master/yay-9.4.2-1-"$(uname -m)".pkg.tar.xz
+wget https://github.com/koumaza/my-dot/raw/master/yay-9.4.2-1-"$(uname -m)".pkg.tar.xz
+pacman -U 
