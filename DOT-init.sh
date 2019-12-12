@@ -1,0 +1,2 @@
+set -gx INSTALL_PACKAGE 
+set -gx INHERENT_PACKAGE
