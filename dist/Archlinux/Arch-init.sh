@@ -1,8 +1,8 @@
 #!/bin/bash
-export DOT-INIT-OS=Archlinux
-export DOT-INIT-1ST-PACKAGE_MANAGER=pacman
-export DOT-INIT-2ND-PACKAGE_MANAGER=yay
-export DOT-INIT-PACKAGE_MANAGER-OPTION='-Sy --needed'
+export DOT_INIT_OS=Archlinux
+export DOT_INIT_1ST_PACKAGE_MANAGER=pacman
+export DOT_INIT_2ND_PACKAGE_MANAGER=yay
+export DOT_INIT_PACKAGE_MANAGER_OPTION='--Sy --needed'
 
 pacman-key --init ; pacman-key --populate archlinux
 pacman -Syyuu
